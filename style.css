@@ -124,13 +124,16 @@ td {
 .header {
     width: 12%;
     background-color: antiquewhite;
+    /*overflow: hidden;*/
 }
     .header > img {
-        width: 10vw;
-        height: 20vh;
+        max-width: 100%;
+        height: auto;
         padding: 15px;
         background-color: white;
         float: right;
+       
+        display: block;
     }
     .section {
         width: 88%;
